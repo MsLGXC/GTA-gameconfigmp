@@ -7,3 +7,5 @@
   Maybe it's the best gameconfig or being to. and it create for online so it workwell at mp<br><br>
   
   modtify based here https://github.com/pnwparksfan/gameconfig
+
+  At first, this was created for my mpmod, as many people use various confusing gameconfig versions, so I provided this. If you want to access modpack in online mode, please read this link https://github.com/MsLGXC/GTA-StandAIO
