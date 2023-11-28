@@ -18,6 +18,6 @@
   put dll to GTAdirectory<br>
   put xml to mods/update/update.rpf/common/data
 
-  ## Or u can download oiv ver in releases, than use openiv auto install like other mods
+  ## Or u can download oiv ver in releases, and use openiv auto install like other mods
 
   
