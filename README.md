@@ -6,7 +6,7 @@
   <h1>GTA-gameconfigmp</h1>
   Maybe it's the best gameconfig or being to. and it create for online so it workwell at mp<br><br>
   
-  modtify based here https://github.com/pnwparksfan/gameconfig
+  modify based here https://github.com/pnwparksfan/gameconfig
 
   The latest cracked version of SHV is also provided here, which removes the online check of SHV and prevents you from being forced to close the game when entering MP
 
