@@ -11,3 +11,13 @@
   The latest cracked version of SHV is also provided here, which removes the online check of SHV and prevents you from being forced to close the game when entering MP
 
   At first, this was created for my mpmod, as many people use various confusing gameconfig versions, so I provided this. If you want to access modpack in online mode, please read this link https://github.com/MsLGXC/GTA-StandAIO
+
+  # Download & Install
+  ## click releases-latest/code-downloadzip/or any singlefile's cloud icon in left
+  ## unzip them anywhere if u download zip
+  ## put .dll to GTAdirectory
+  ## put .xml to mods/update/update.rpf/common/data<br>
+
+  # Or u can download oiv ver in releases, than use openiv open oivfile and auto install like othermods
+
+  
