@@ -20,4 +20,7 @@
 
   ## Or u can download oiv ver in releases, and use openiv auto install like other mods
 
+  # u need heapadjuster.asi or u game will get ERR MEM EMBEDDEDALLOC ALLOC(内存不足) when game startup
+  heapadjuster.asi here https://www.gta5-mods.com/tools/heapadjuster
+
   
