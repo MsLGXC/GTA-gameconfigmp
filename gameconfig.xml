@@ -1226,7 +1226,7 @@ in this file and decrease the value.
 
                 <!--It is best not to change any stack unless the updated values are officially released-->
                 <!--This is likely to cause numerous issues in online.If the player cannot die normally, cannot zoom the map, cannot load the hud, cannot load some indoor scenes. etc-->
-                
+                <!--DONT CHANGE ANY STACKVALUE FOR ONLINE-->
 
                 <ConfigScriptStackSizes>
                     <StackSizeData>
@@ -1265,8 +1265,6 @@ in this file and decrease the value.
                             <SizeOfStack value="2552"/>
                             <NumberOfStacksOfThisSize value="2"/>
                         </Item>
-                        <!--DONT CHANGE THIS FOR ONLINE-->
-                        
                         <Item>
                             <StackName>VEHICLE_SPAWN</StackName>
                             <SizeOfStack value="3568"/>
@@ -1274,7 +1272,7 @@ in this file and decrease the value.
                         </Item>
                         <Item>
                             <StackName>CAR_MOD_SHOP</StackName>
-                            <SizeOfStack value="3650"/>
+                            <SizeOfStack value="3750"/>
                             <NumberOfStacksOfThisSize value="2"/>
                         </Item>
                         <Item>
@@ -1301,9 +1299,7 @@ in this file and decrease the value.
                             <StackName>INTERACTION_MENU</StackName>
                             <SizeOfStack value="9800"/>
                             <NumberOfStacksOfThisSize value="1"/>
-                        </Item>
-                        <!--DONT CHANGE THIS FOR ONLINE-->
-                        
+                        </Item>                     
                         <Item>
 							<StackName>SCRIPT_XML</StackName>
 							<SizeOfStack value="8344"/>
@@ -1318,9 +1314,7 @@ in this file and decrease the value.
 							<StackName>ACTIVITY_CREATOR_INT</StackName>
 							<SizeOfStack value="15900"/>
 							<NumberOfStacksOfThisSize value="3"/>
-						</Item>
-                        <!--DONT CHANGE THIS FOR ONLINE-->
-                        
+						</Item>                 
 						<Item>
 							<StackName>SMPL_INTERIOR</StackName>
 							<SizeOfStack value="2512"/>
@@ -1358,24 +1352,22 @@ in this file and decrease the value.
                         </Item>
                         <Item>
                             <StackName>FMMC_LAUNCHER</StackName>
-                            <SizeOfStack value="24000"/>
+                            <SizeOfStack value="26000"/>
                             <NumberOfStacksOfThisSize value="1"/>
                         </Item>
                         <Item>
                             <StackName>MULTIPLAYER_FREEMODE</StackName>
-                            <SizeOfStack value="80000"/>
+                            <SizeOfStack value="82500"/>
                             <NumberOfStacksOfThisSize value="1"/>
                         </Item>
                         <Item>
                             <StackName>MISSION</StackName>
-                            <SizeOfStack value="57500"/>
+                            <SizeOfStack value="60500"/>
                             <NumberOfStacksOfThisSize value="1"/>
                         </Item>
-                        <!--DONT CHANGE THIS FOR ONLINE-->
-                        
                         <Item>
                             <StackName>MP_LAUNCH_SCRIPT</StackName>
-                            <SizeOfStack value="33750"/>
+                            <SizeOfStack value="34750"/>
                             <NumberOfStacksOfThisSize value="1"/>
                         </Item>
 
