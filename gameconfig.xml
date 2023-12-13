@@ -465,7 +465,7 @@ in this file and decrease the value.
 						</Item>
 						<Item>
 							<PoolName>InteriorProxy</PoolName>
-							<PoolSize value="1150"/>
+							<PoolSize value="1160"/>
 						</Item>
 						<Item>
 							<PoolName>IplStore</PoolName>
@@ -615,7 +615,7 @@ in this file and decrease the value.
 						</Item>
 						<Item>
 							<PoolName>ScriptStore</PoolName>
-							<PoolSize value="1050"/>
+							<PoolSize value="1100"/>
 						</Item>
 						<Item>
 							<PoolName>StaticBounds</PoolName>
