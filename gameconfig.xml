@@ -16,7 +16,6 @@
 <!--⬇⬇⬇⬇⬇ Based here ⬇⬇⬇⬇⬇-->
 <!--
 DILAPIDATED-REALISM DISPATCH ENHANCED 4.0
- gameconfig.xml for GTA V 2802
  
  RE by: alexguirre, CamxxCore, and Dilapidated 
  Assistance from: Unknown, PNWParksFan, Cass, Jax765, Stryfaar, and the RDE Team
@@ -460,12 +459,14 @@ in this file and decrease the value.
 							<PoolSize value="20000"/>
 						</Item>
 						<Item>
+                            <!-- May need to increase for large map mods -->
 							<PoolName>InteriorInst</PoolName>
-							<PoolSize value="400"/>
+							<PoolSize value="900"/>
 						</Item>
 						<Item>
+                            <!-- May need to increase for large map mods -->
 							<PoolName>InteriorProxy</PoolName>
-							<PoolSize value="1160"/>
+							<PoolSize value="9110"/>
 						</Item>
 						<Item>
 							<PoolName>IplStore</PoolName>
@@ -512,7 +513,7 @@ in this file and decrease the value.
 						<Item>
 							<!-- Storage for metadata files, .ymt files -->
 							<PoolName>MetaDataStore</PoolName>
-							<PoolSize value="6000"/>
+							<PoolSize value="6100"/>
 						</Item>
 						<Item>
 							<PoolName>NavMeshes</PoolName>
