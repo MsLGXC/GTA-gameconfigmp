@@ -462,12 +462,12 @@ in this file and decrease the value.
 						<Item>
                             <!-- May need to increase for large map mods -->
 							<PoolName>InteriorInst</PoolName>
-							<PoolSize value="400"/>
+							<PoolSize value="900"/>
 						</Item>
 						<Item>
                             <!-- May need to increase for large map mods -->
 							<PoolName>InteriorProxy</PoolName>
-							<PoolSize value="1160"/>
+							<PoolSize value="9110"/>
 						</Item>
 						<Item>
 							<PoolName>IplStore</PoolName>
@@ -514,7 +514,7 @@ in this file and decrease the value.
 						<Item>
 							<!-- Storage for metadata files, .ymt files -->
 							<PoolName>MetaDataStore</PoolName>
-							<PoolSize value="6000"/>
+							<PoolSize value="6100"/>
 						</Item>
 						<Item>
 							<PoolName>NavMeshes</PoolName>
