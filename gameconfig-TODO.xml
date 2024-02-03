@@ -467,7 +467,7 @@ in this file and decrease the value.
 						<Item>
                             <!-- May need to increase for large map mods -->
 							<PoolName>InteriorProxy</PoolName>
-							<PoolSize value="9110"/>
+							<PoolSize value="1160"/>
 						</Item>
 						<Item>
 							<PoolName>IplStore</PoolName>
