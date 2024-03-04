@@ -10,7 +10,7 @@
 
 -->
 <!--DNOT EDIT THIS UNLESS U KNOW WHAT URE DOING-->
-<!--GTA5 1.67 v3095-->
+<!--GTA5 1.68 v3095-->
 <!--modified for online-->
 <!--⬇⬇⬇⬇⬇ Based here ⬇⬇⬇⬇⬇-->
 <!--
@@ -462,7 +462,7 @@ in this file and decrease the value.
 						<Item>
                             <!-- May need to increase for large map mods -->
 							<PoolName>InteriorInst</PoolName>
-							<PoolSize value="400"/>
+							<PoolSize value="900"/>
 						</Item>
 						<Item>
                             <!-- May need to increase for large map mods -->
@@ -514,7 +514,7 @@ in this file and decrease the value.
 						<Item>
 							<!-- Storage for metadata files, .ymt files -->
 							<PoolName>MetaDataStore</PoolName>
-							<PoolSize value="6000"/>
+							<PoolSize value="6100"/>
 						</Item>
 						<Item>
 							<PoolName>NavMeshes</PoolName>
