@@ -467,7 +467,7 @@ in this file and decrease the value.
 						<Item>
                             <!-- May need to increase for large map mods -->
 							<PoolName>InteriorProxy</PoolName>
-							<PoolSize value="1160"/>
+							<PoolSize value="1665"/>
 						</Item>
 						<Item>
 							<PoolName>IplStore</PoolName>
@@ -790,11 +790,11 @@ in this file and decrease the value.
                         </Item>
                         <Item>
                             <PoolName>ActionTable_Definitions</PoolName>
-                            <PoolSize value="310"/>
+                            <PoolSize value="336"/>
                         </Item>
                         <Item>
                             <PoolName>ActionTable_Results</PoolName>
-                            <PoolSize value="478"/>
+                            <PoolSize value="503"/>
                         </Item>
                         <Item>
                             <PoolName>ActionTable_Impulses</PoolName>
@@ -1354,17 +1354,17 @@ in this file and decrease the value.
                         </Item>
                         <Item>
                             <StackName>FMMC_LAUNCHER</StackName>
-                            <SizeOfStack value="26000"/>
+                            <SizeOfStack value="27000"/>
                             <NumberOfStacksOfThisSize value="1"/>
                         </Item>
                         <Item>
                             <StackName>MULTIPLAYER_FREEMODE</StackName>
-                            <SizeOfStack value="82500"/>
+                            <SizeOfStack value="85000"/>
                             <NumberOfStacksOfThisSize value="1"/>
                         </Item>
                         <Item>
                             <StackName>MISSION</StackName>
-                            <SizeOfStack value="60500"/>
+                            <SizeOfStack value="62500"/>
                             <NumberOfStacksOfThisSize value="1"/>
                         </Item>
                         <Item>
