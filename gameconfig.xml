@@ -24,7 +24,7 @@ in this file and decrease the value.
 -->
 
 <fwAllConfigs>
-    <timeStamp>26/6/2024 21:52:00</timeStamp>
+    <timeStamp>7/7/2023 00:29:00</timeStamp>
     <Author>MsLGXC</Author>
     <ConfigArray>
 
@@ -114,7 +114,8 @@ in this file and decrease the value.
 						</Item>
 						<Item>
 							<!-- R* cap = 1250 : Unknown usage-->
-                            <!--Increasing this value may result cant sync important data list-->
+
+                            <!--Increasing this value may result cant sync important mpdata list-->
                             
 							<PoolName>chandlingobject</PoolName>
 							<PoolSize value="2500"/>
@@ -267,10 +268,11 @@ in this file and decrease the value.
 						</Item>
 						<Item>
 							<!-- Setting this value above 66025 can cause issues with NVE around the tunnel and roads they added, no other mods appear to be impacted -->
-							<!--Increasing this value may result cant sync important data list-->
+
+							<!--Increasing this value may result cant sync important mpdata list-->
                             
                             <PoolName>Building</PoolName>
-							<PoolSize value="66000"/>
+							<PoolSize value="60000"/>
 						</Item>
 						<Item>
 							<!-- Size of CVehicleRecordingMgr's streaming module. -->
@@ -440,7 +442,7 @@ in this file and decrease the value.
 						</Item>
 						<Item>
 							<PoolName>ExprDictStore</PoolName>
-							<PoolSize value="625"/>
+							<PoolSize value="630"/>
 						</Item>
 						<Item>
 							<PoolName>FrameFilterStore</PoolName>
@@ -466,8 +468,11 @@ in this file and decrease the value.
 						</Item>
 						<Item>
                             <!-- May need to increase for large map mods -->
+                            
+                            <!--may cant sync online-->
+
 							<PoolName>InteriorProxy</PoolName>
-							<PoolSize value="1665"/>
+							<PoolSize value="1165"/>
 						</Item>
 						<Item>
 							<PoolName>IplStore</PoolName>
@@ -514,7 +519,7 @@ in this file and decrease the value.
 						<Item>
 							<!-- Storage for metadata files, .ymt files -->
 							<PoolName>MetaDataStore</PoolName>
-							<PoolSize value="6100"/>
+							<PoolSize value="6150"/>
 						</Item>
 						<Item>
 							<PoolName>NavMeshes</PoolName>
@@ -676,7 +681,7 @@ in this file and decrease the value.
 						</Item>
 						<Item>
 							<PoolName>CMoveObject</PoolName>
-							<PoolSize value="600"/>
+							<PoolSize value="620"/>
 						</Item>
 						<Item>
 							<PoolName>CMoveAnimatedBuilding</PoolName>
@@ -1043,6 +1048,8 @@ in this file and decrease the value.
 					<MaxEffectsWorld2d value="1000"/>
 					<!-- R* cap = 0 <MaxClothCollisionsExtensions value="0"/> : Doesn't appear to be used-->
 				</Config2dEffects>
+
+                <!-- i dont know what this is for and why i say it -->
                 <!--dont change this, otherwise your game may crash at startup-->
                 <!--if not crash,still cant enter online Because change these will result your important data list cant sync with the server-->
                 
@@ -1057,9 +1064,9 @@ in this file and decrease the value.
 					<MaxTimeModelInfos value="1800"/>
 					<MaxVehicleModelInfos value="5000"/>
 					<MaxWeaponModelInfos value="5000"/>
-					<MaxExtraPedModelInfos value="5110"/>
-					<MaxExtraVehicleModelInfos value="5050"/>
-					<MaxExtraWeaponModelInfos value="5020"/>
+					<MaxExtraPedModelInfos value="5200"/>
+					<MaxExtraVehicleModelInfos value="5165"/>
+					<MaxExtraWeaponModelInfos value="5130"/>
 				</ConfigModelInfo>
 
 				<ConfigExtensions>
@@ -1074,6 +1081,7 @@ in this file and decrease the value.
 					<PhysicalStreamingBuffer value="252"/>
 					<VirtualStreamingBuffer value="1000"/>
 				</ConfigStreamingEngine>
+
                 <!--Restore here if you don't want to squat down-->
                 
                 <UseVehicleBurnoutTexture>CB_TRUE</UseVehicleBurnoutTexture>
@@ -2051,7 +2059,7 @@ in this file and decrease the value.
 						</Item>
 						<Item>
 							<ResourceTypeName>PEDGROUP</ResourceTypeName>
-							<ExpectedMaximum value="16"/>
+							<ExpectedMaximum value="33"/>
 						</Item>
 						<Item>
 							<ResourceTypeName>SEQUENCE_TASK</ResourceTypeName>
@@ -2143,7 +2151,7 @@ in this file and decrease the value.
 						</Item>
 						<Item>
 							<ResourceTypeName>WEAPON_ASSET</ResourceTypeName>
-							<ExpectedMaximum value="128"/>
+							<ExpectedMaximum value="131"/>
 						</Item>
 						<Item>
 							<ResourceTypeName>VEHICLE_ASSET</ResourceTypeName>
